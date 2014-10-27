@@ -1,0 +1,19 @@
+{
+  "name": "angular-resource",
+  "version": "1.2.27-build.532+sha.d0b5bfa",
+  "main": "./angular-resource.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.2.27-build.532+sha.d0b5bfa"
+  },
+  "homepage": "https://github.com/angular/bower-angular-resource",
+  "_release": "1.2.27-build.532+sha.d0b5bfa",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.27-build.532+sha.d0b5bfa",
+    "commit": "a03333cf84e667e8c4fd9fe047e2436076c6dbf5"
+  },
+  "_source": "git://github.com/angular/bower-angular-resource.git",
+  "_target": "~1.2.0",
+  "_originalSource": "angular-resource"
+}
