@@ -1,0 +1,16 @@
+<form ng-submit="onCommandChange()">
+    <div class="row">
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="command" placeholder="Enter Command" />
+        </div>
+        <br>
+    </div>
+</form>
+
+<div class="row">
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="cmd in commandHistory track by $index">
+            <p ng-bind-html="cmd"></p>
+        </li>
+    </ul>
+</div>
